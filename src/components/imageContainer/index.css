@@ -1,0 +1,21 @@
+.image-container {
+    flex: 1;
+    background-color: #f5f3ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .image-container {
+      display: none;
+    }
+  }
+  
